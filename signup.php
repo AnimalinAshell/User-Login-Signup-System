@@ -1,0 +1,18 @@
+<?php include_once("header.php") ?>
+
+<section class="main-container">
+	<div class="container">
+		<h2>Sign up</h2>
+		<form class="signup-form" action="includes/signup.inc.php" method="post">
+			<input type="text" name="first" placeholder="Firstname">
+			<input type="text" name="last" placeholder="Lastname">
+			<input type="email" name="email" placeholder="E-Mail">
+			<input type="text" name="username" placeholder="Username">
+			<input type="password" name="password" placeholder="Password">
+			<button type="submit" name="submit">Sign up</button>
+		</form>
+	</div>
+</section>
+
+
+<?php include_once("footer.php") ?>
